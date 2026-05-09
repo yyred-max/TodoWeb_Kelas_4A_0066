@@ -23,6 +23,9 @@ btntambah.addEventListener("click",function() {
     let tombolEdit = document.createElement("button");
     tombolEdit.textContent = "Edit";
     tombolEdit.className = "edit";
+    tombolEdit.onclick = function () {
+        
+    }
     
 
 
