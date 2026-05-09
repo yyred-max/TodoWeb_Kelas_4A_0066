@@ -42,7 +42,9 @@ function editTugas(listbaru) {
             alert("Data Harus Dimasukkan!");
             teksBaru = teksLama;
         }
-        
+        let spanBaru = document.createElement("span");
+        spanBaru.innerHTML = teksBaru;
+        listbaru.replaceChild(spanBaru, inputEdit);
 
     }
 
