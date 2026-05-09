@@ -19,6 +19,9 @@ btntambah.addEventListener("click",function() {
 
     listbaru.appendChild(spanbaru);
 
+    let tombolHapus = document.createElement("button"); 
+
+
     daftarTugas.appendChild(listbaru);
 
     const warnabaru = document.querySelectorAll("li");
