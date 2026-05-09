@@ -21,6 +21,8 @@ btntambah.addEventListener("click",function() {
 
     // Menambahkan tombol edit
     let tombolEdit = document.createElement("button");
+    tombolEdit.textContent = "Edit";
+    
 
 
 
