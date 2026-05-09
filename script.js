@@ -45,7 +45,6 @@ function editTugas(listbaru) {
         let spanBaru = document.createElement("span");
         spanBaru.innerHTML = teksBaru;
         listbaru.replaceChild(spanBaru, inputEdit);
-
     }
 
     inputEdit.addEventListener("blur", simpan);
@@ -55,7 +54,7 @@ function editTugas(listbaru) {
 
 }
 
-    
+    listbaru.appendChild(tombolEdit);
 
 
 
