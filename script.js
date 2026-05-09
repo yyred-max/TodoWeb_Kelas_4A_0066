@@ -33,6 +33,11 @@ function editTugas(listbaru) {
     let inputEdit = document.createElement("input");
     inputEdit.type = "text";
     inputEdit.value = teksLama;
+    listbaru.replaceChild(inputEdit, spanTugas);
+    inputEdit.focus();
+
+
+
 }
     
 
