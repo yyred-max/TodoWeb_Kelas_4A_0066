@@ -29,8 +29,8 @@ btntambah.addEventListener("click",function() {
 
 function editTugas(listbaru) {
     let spanTugas = listbaru.querySelector("span");
-    
-
+    let teksLama = spanTugas.innerHTML;
+    let inputEdit = document.createElement("input");
 }
     
 
