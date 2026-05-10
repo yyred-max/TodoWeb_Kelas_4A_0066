@@ -19,6 +19,12 @@ btntambah.addEventListener("click",function() {
 
     listbaru.appendChild(spanbaru);
 
+    // status tugas
+    let spanStatus = document.createElement("span");
+    spanStatus.innerHTML = "Pending";
+    listbaru.appendChild(spanStatus);
+    
+
     // Menambahkan tombol edit
     let tombolEdit = document.createElement("button");
     tombolEdit.textContent = "Edit";
