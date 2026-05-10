@@ -6,6 +6,7 @@ const daftarTugas = document.getElementById("daftarTugas");
 btntambah.addEventListener("click",function() {
 
     let teksTugas = inputTugas.value;
+    let teksTanggal = inputTanggal.value;
 
     if(teksTugas === ""){
         alert("Data harus dimasukkan!");
@@ -52,10 +53,6 @@ btntambah.addEventListener("click",function() {
     };
 
 
-  
-    
-  
-
 function editTugas(listbaru) {
     let spanTugas = listbaru.querySelector("span");
     let teksLama = spanTugas.innerHTML;
@@ -84,7 +81,7 @@ function editTugas(listbaru) {
         if (e.key === "Enter") simpan();
     });
 
-}
+    }
 
     listbaru.appendChild(tombolEdit);
 
