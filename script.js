@@ -33,7 +33,13 @@ btntambah.addEventListener("click",function() {
         spanStatus.style.backgroundColor = "#facc15";
     };
 
-    // 
+    // Tombol Done 
+    let tombolDone = document.createElement("button");
+    tombolDone.textContent = "Done";
+    tombolDone.onclick = function() {
+        spanStatus.innerHTML = "Done";
+        spanStatus.style.backgroundColor = "#22c55e";
+    }
 
 
     
