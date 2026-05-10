@@ -32,6 +32,7 @@ btntambah.addEventListener("click",function() {
         spanStatus.innerHTML = "Progress";
         spanStatus.style.backgroundColor = "#facc15";
     };
+    listbaru.appendChild(tombolProgress);
 
     // Tombol Done 
     let tombolDone = document.createElement("button");
@@ -39,10 +40,8 @@ btntambah.addEventListener("click",function() {
     tombolDone.onclick = function() {
         spanStatus.innerHTML = "Done";
         spanStatus.style.backgroundColor = "#22c55e";
-    }
-
-
-    
+    };
+    listbaru.appendChild(tombolDone);
 
     // Menambahkan tombol edit
     let tombolEdit = document.createElement("button");
@@ -51,6 +50,11 @@ btntambah.addEventListener("click",function() {
     tombolEdit.onclick = function () {
        editTugas(listbaru);
     };
+
+
+  
+    
+  
 
 function editTugas(listbaru) {
     let spanTugas = listbaru.querySelector("span");
